@@ -1,0 +1,22 @@
+{
+  "enabled": false,
+  "runBaseChecks": true,
+  "gateScript": "",
+  "requiredArtifacts": [],
+  "freshMinutes": null,
+  "typeRouting": {
+    "storyMatchers": ["C", "虚构故事", "故事", "言情"],
+    "opinionMatchers": ["A", "观点", "分析"],
+    "personalMatchers": ["B", "经历"]
+  },
+  "branchRules": {
+    "storyForbiddenPhrases": [
+      "执行清单",
+      "行动清单",
+      "立刻执行",
+      "按优先级",
+      "步骤"
+    ],
+    "opinionRequireActionList": false
+  }
+}
